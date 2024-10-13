@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+  background: url('https://png.pngtree.com/background/20210715/original/pngtree-organic-shapes-illustration-background-design-picture-image_1263776.jpg');
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+button {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f6b;
+}
+
+.social-btn {
+  width: 100%;
+  background-color: #3b5998; /* Facebook color */
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-btn:nth-child(2) {
+  background-color: #db4437; /* Google color */
+}
+
+.social-btn:nth-child(3) {
+  background-color: #1da1f2; /* Twitter color */
+}
+
+.social-btn:hover {
+  opacity: 0.9;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  color: #008CBA;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#message {
+  margin-top: 20px;
+  color: green;
+}
